@@ -51,11 +51,11 @@ public class FrameActivity extends FragmentActivity {
                         break;
                     case R.id.radioTbbs:
                         fragmentTransaction.show(mFragments[1]).commit();
-                        rbtMain.setBackgroundResource(R.drawable.shape);
+                        rbtTbbs.setBackgroundResource(R.drawable.shape);
                         break;
                     case R.id.radioHome:
                         fragmentTransaction.show(mFragments[2]).commit();
-                        rbtMain.setBackgroundResource(R.drawable.shape);
+                        rbtHome.setBackgroundResource(R.drawable.shape);
                         break;
                     default:
                         break;

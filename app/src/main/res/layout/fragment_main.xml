@@ -1,16 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".MainFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/mainTextView"
-        android:layout_width="406dp"
-        android:layout_height="268dp"
+        android:id="@+id/mainView"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
         android:drawableTop="@drawable/maintop"
         android:text="" />
 
-</FrameLayout>
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginBottom="445dp"
+        android:gravity="center"
+        android:text="专属于你的植物社交平台"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/baihe"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="309dp"
+        android:layout_marginRight="309dp"
+        android:layout_marginBottom="266dp"
+        android:text="百合" />
+
+    <ImageView
+        android:id="@+id/imagebaihe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="323dp"
+        android:layout_marginRight="323dp"
+        android:layout_marginBottom="193dp"
+        android:src="@drawable/baihe" />
+
+    <TextView
+        android:id="@+id/xianrenzhang"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginRight="222dp"
+        android:layout_marginBottom="266dp"
+        android:text="仙人掌" />
+
+    <ImageView
+        android:id="@+id/imagexianrenzhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginRight="233dp"
+        android:layout_marginBottom="198dp"
+        android:src="@drawable/xianrenzhang" />
+
+
+    <TextView
+        android:id="@+id/xiangrikui"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginBottom="266dp"
+        android:text="向日葵" />
+
+    <ImageView
+        android:id="@+id/imagexiangrikui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="196dp"
+        android:src="@drawable/xiangrikui" />
+
+
+    <TextView
+        android:id="@+id/duorou"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="267dp"
+        android:text="多肉" />
+
+    <ImageView
+        android:id="@+id/imageduorou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="198dp"
+        android:src="@drawable/duorou" />
+
+
+    <TextView
+        android:id="@+id/zhenzhudiaolan"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="309dp"
+        android:layout_marginRight="309dp"
+        android:layout_marginBottom="123dp"
+        android:text="珍珠吊兰" />
+
+    <ImageView
+        android:id="@+id/imagezhenzhudiaolan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="318dp"
+        android:layout_marginRight="318dp"
+        android:layout_marginBottom="47dp"
+        android:src="@drawable/zhenzhudiaolan" />
+
+    <TextView
+        android:id="@+id/haitanghua"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="213dp"
+        android:layout_marginRight="213dp"
+        android:layout_marginBottom="122dp"
+        android:text="海棠花" />
+
+    <ImageView
+        android:id="@+id/imagehaitanghua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginRight="231dp"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/haitanghua" />
+
+
+    <TextView
+        android:id="@+id/luhui"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="122dp"
+        android:text="芦荟" />
+
+    <ImageView
+        android:id="@+id/imageluhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="54dp"
+        android:src="@drawable/luhui" />
+
+
+    <TextView
+        android:id="@+id/yujixiang"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="122dp"
+        android:text="郁金香" />
+
+    <ImageView
+        android:id="@+id/imagexujinxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="54dp"
+        android:src="@drawable/yujinxiang" />
+
+</RelativeLayout>

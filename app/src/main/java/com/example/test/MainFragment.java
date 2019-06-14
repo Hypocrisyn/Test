@@ -22,7 +22,7 @@ public class MainFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        TextView tv = (TextView)getView().findViewById(R.id.mainTextView);
+        TextView tv = (TextView)getView().findViewById(R.id.mainView);
         tv.setText("这是主页面");
     }
 }
