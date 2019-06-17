@@ -22,7 +22,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        TextView tv = (TextView)getView().findViewById(R.id.homeTextView);
-        tv.setText("这是用户页面");
+        TextView tv = (TextView)getView().findViewById(R.id.hometext);
+        tv.setText("");
     }
 }
