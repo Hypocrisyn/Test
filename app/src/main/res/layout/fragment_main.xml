@@ -72,7 +72,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="233dp"
         android:layout_marginRight="233dp"
-        android:layout_marginBottom="198dp"
+        android:layout_marginBottom="193dp"
         android:src="@drawable/xianrenzhang" />
 
 
@@ -95,9 +95,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
-        android:layout_marginBottom="196dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="193dp"
         android:src="@drawable/xiangrikui" />
 
 
@@ -120,9 +120,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="132dp"
-        android:layout_marginRight="132dp"
-        android:layout_marginBottom="198dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginBottom="193dp"
         android:src="@drawable/duorou" />
 
 
@@ -223,5 +223,17 @@
         android:layout_marginRight="35dp"
         android:layout_marginBottom="54dp"
         android:src="@drawable/yujinxiang" />
+
+    <TextView
+        android:id="@+id/planttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="更多..." />
 
 </RelativeLayout>

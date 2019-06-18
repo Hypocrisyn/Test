@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,6 +11,102 @@
         android:id="@+id/tbbsTextView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/placeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/place" />
+
+    <TextView
+        android:id="@+id/placetext"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="217dp"
+        android:layout_marginRight="217dp"
+        android:layout_marginBottom="365dp"
+        android:text="近期好去处"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/wheretext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="35dp"
+        android:text="前往>>" />
+
+    <TextView
+        android:id="@+id/weathertext"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="245dp"
+        android:layout_marginRight="245dp"
+        android:layout_marginBottom="483dp"
+        android:text="25℃"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/timetext"
+        android:layout_width="151dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="215dp"
+        android:layout_marginRight="215dp"
+        android:layout_marginBottom="450dp"
+        android:text="更新时间：18:00" />
+
+    <TextView
+        android:id="@+id/locationtext"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:layout_marginBottom="554dp"
+        android:text="成都" />
+
+    <TextView
+        android:id="@+id/wettext"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="456dp"
+        android:text="相对湿度 79%"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/windtext"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="509dp"
+        android:text="静风 0级"
+        android:textSize="20dp" />
+
+</RelativeLayout>
