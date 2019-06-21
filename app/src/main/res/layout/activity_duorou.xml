@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".XianrenzhangActivity">
+    tools:context=".DuorouActivity">
 
     <TextView
-        android:id="@+id/rdo_back_xianrenzhang"
+        android:id="@+id/rdo_back_duorou"
         android:layout_width="57dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -19,129 +19,129 @@
         android:text="返回" />
 
     <TextView
-        android:id="@+id/xianrenzhang"
-        android:layout_width="156dp"
+        android:id="@+id/duorou"
+        android:layout_width="187dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="213dp"
-        android:layout_marginRight="213dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
         android:layout_marginBottom="571dp"
-        android:text="仙人掌 Cactus"
+        android:text="多肉 Fleshiness"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/classxianrenzhang"
+        android:id="@+id/classduorou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="533dp"
-        android:text="仙人掌科"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
+        android:layout_marginBottom="532dp"
+        android:text=""
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/categoryxianrenzhang"
+        android:id="@+id/categoryduorou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="227dp"
-        android:layout_marginRight="227dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
         android:layout_marginBottom="533dp"
-        android:text="仙人掌属"
+        android:text=""
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introxianrenzhang"
+        android:id="@+id/introduorou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="312dp"
-        android:layout_marginRight="312dp"
-        android:layout_marginBottom="404dp"
+        android:layout_marginEnd="317dp"
+        android:layout_marginRight="317dp"
+        android:layout_marginBottom="414dp"
         android:text="简要介绍"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introtextxianrenzhang"
-        android:layout_width="346dp"
-        android:layout_height="47dp"
+        android:id="@+id/introtextduorou"
+        android:layout_width="347dp"
+        android:layout_height="82dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginBottom="340dp"
-        android:text="常生长于沙漠等干燥环境中，被称为“沙漠英雄花”，为多肉植物的一类。" />
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="316dp"
+        android:text="多肉通常具根、茎、叶三种营养器官和花、果实、种子三种繁殖器官。全世界共有多肉植物一万余种，它们绝大部分属于高等植物(绝大多数是被子植物)，在植物分类上隶属几十个科。" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang1"
+        android:id="@+id/imageduorou1"
         android:layout_width="83dp"
         android:layout_height="104dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="289dp"
-        android:layout_marginRight="289dp"
-        android:layout_marginBottom="427dp"
-        app:srcCompat="@drawable/xianrenzhang1" />
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="442dp"
+        app:srcCompat="@drawable/duorou1" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageduorou2"
+        android:layout_width="83dp"
+        android:layout_height="54dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="177dp"
-        android:layout_marginRight="177dp"
-        android:layout_marginBottom="449dp"
-        app:srcCompat="@drawable/xianrenzhang2" />
+        android:layout_marginEnd="174dp"
+        android:layout_marginRight="174dp"
+        android:layout_marginBottom="464dp"
+        app:srcCompat="@drawable/duorou2" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang3"
-        android:layout_width="88dp"
-        android:layout_height="66dp"
+        android:id="@+id/imageduorou3"
+        android:layout_width="74dp"
+        android:layout_height="51dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="56dp"
-        android:layout_marginRight="56dp"
-        android:layout_marginBottom="446dp"
-        app:srcCompat="@drawable/xianrenzhang3" />
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="467dp"
+        app:srcCompat="@drawable/duorou3" />
 
     <TextView
-        android:id="@+id/meanbaihe"
+        android:id="@+id/meanduorou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="303dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginRight="315dp"
+        android:layout_marginBottom="284dp"
         android:text="价值功用"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/meantextbaihe"
+        android:id="@+id/meantextduorou"
         android:layout_width="359dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="241dp"
-        android:text="仙人掌可以食用，可以药用，可以放在阳台上观赏。通常栽作围篱，茎供药用，浆果酸甜可食。" />
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="228dp"
+        android:text="多肉植物中有不少种类具药用成分，许多种类非常适宜于现代家庭种养，也可用于室内装饰和布置。" />
 
     <TextView
         android:id="@+id/placebaihe"
@@ -150,9 +150,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginRight="318dp"
+        android:layout_marginBottom="181dp"
         android:text="分布地区"
         android:textColor="#ff99cc00" />
 
@@ -163,10 +163,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="143dp"
-        android:text="广东、广西、海南" />
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="118dp"
+        android:text="北方主要以东北三省为主，南方的福州、厦门、漳州、龙海、金华等地也在大力发展多肉植物。" />
 
     <TextView
         android:id="@+id/timebaihe"
@@ -175,9 +175,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="314dp"
-        android:layout_marginRight="314dp"
-        android:layout_marginBottom="107dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginRight="316dp"
+        android:layout_marginBottom="81dp"
         android:text="花开时节"
         android:textColor="#ff99cc00" />
 
@@ -188,9 +188,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="236dp"
-        android:layout_marginRight="236dp"
-        android:layout_marginBottom="66dp"
-        android:text="花期6-10(-12)月" />
+        android:layout_marginEnd="238dp"
+        android:layout_marginRight="238dp"
+        android:layout_marginBottom="44dp"
+        android:text="花期以具体种类为准" />
 
 </RelativeLayout>

@@ -4,61 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".XianrenzhangActivity">
+    tools:context=".ZhenzhudiaolanActivity">
 
     <TextView
-        android:id="@+id/rdo_back_xianrenzhang"
+        android:id="@+id/rdo_back_zhenzhudiaolan"
         android:layout_width="57dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        android:layout_marginBottom="579dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="573dp"
         android:text="返回" />
 
     <TextView
-        android:id="@+id/xianrenzhang"
-        android:layout_width="156dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/zhenzhudiaolan"
+        android:layout_width="264dp"
+        android:layout_height="40dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="213dp"
-        android:layout_marginRight="213dp"
-        android:layout_marginBottom="571dp"
-        android:text="仙人掌 Cactus"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="558dp"
+        android:text="珍珠吊兰 Pearl bracketplant"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/classxianrenzhang"
+        android:id="@+id/classzhenzhudiaolan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="533dp"
-        android:text="仙人掌科"
+        android:layout_marginEnd="333dp"
+        android:layout_marginRight="333dp"
+        android:layout_marginBottom="532dp"
+        android:text="菊科"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/categoryxianrenzhang"
+        android:id="@+id/categoryzhenzhudiaolan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="227dp"
-        android:layout_marginRight="227dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
         android:layout_marginBottom="533dp"
-        android:text="仙人掌属"
+        android:text="千里光属"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introxianrenzhang"
+        android:id="@+id/introzhenzhudiaolan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -66,57 +66,57 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="312dp"
         android:layout_marginRight="312dp"
-        android:layout_marginBottom="404dp"
+        android:layout_marginBottom="399dp"
         android:text="简要介绍"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introtextxianrenzhang"
-        android:layout_width="346dp"
-        android:layout_height="47dp"
+        android:id="@+id/introtextzhenzhudiaolan"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginBottom="340dp"
-        android:text="常生长于沙漠等干燥环境中，被称为“沙漠英雄花”，为多肉植物的一类。" />
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="311dp"
+        android:text="珍珠吊兰为多年生常绿匍匐生肉质草本植物。一粒粒圆润的、肥厚的圆心形叶片，因叶互生，生长较疏，圆心形，深绿色，肥厚多汁，似珠子，故有“佛串珠”、“佛珠”、“绿葡萄”、“绿之铃”之美称。" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang1"
+        android:id="@+id/imagezhenzhudiaolan1"
         android:layout_width="83dp"
         android:layout_height="104dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="289dp"
-        android:layout_marginRight="289dp"
-        android:layout_marginBottom="427dp"
-        app:srcCompat="@drawable/xianrenzhang1" />
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="423dp"
+        app:srcCompat="@drawable/zhenzhudiaolan1" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang2"
-        android:layout_width="wrap_content"
+        android:id="@+id/imagezhenzhudiaolan2"
+        android:layout_width="85dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="177dp"
-        android:layout_marginRight="177dp"
-        android:layout_marginBottom="449dp"
-        app:srcCompat="@drawable/xianrenzhang2" />
+        android:layout_marginEnd="181dp"
+        android:layout_marginRight="181dp"
+        android:layout_marginBottom="454dp"
+        app:srcCompat="@drawable/zhenzhudiaolan2" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang3"
-        android:layout_width="88dp"
-        android:layout_height="66dp"
+        android:id="@+id/imagezhenzhudiaolan3"
+        android:layout_width="74dp"
+        android:layout_height="51dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="56dp"
-        android:layout_marginRight="56dp"
-        android:layout_marginBottom="446dp"
-        app:srcCompat="@drawable/xianrenzhang3" />
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="453dp"
+        app:srcCompat="@drawable/zhenzhudiaolan3" />
 
     <TextView
         android:id="@+id/meanbaihe"
@@ -125,9 +125,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="303dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginRight="312dp"
+        android:layout_marginBottom="273dp"
         android:text="价值功用"
         android:textColor="#ff99cc00" />
 
@@ -138,13 +138,40 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="241dp"
-        android:text="仙人掌可以食用，可以药用，可以放在阳台上观赏。通常栽作围篱，茎供药用，浆果酸甜可食。" />
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="211dp"
+        android:text="具有观赏价值和药用价值，可用于净化空气，对呼吸道、肺和脾的安康有利。" />
 
     <TextView
-        android:id="@+id/placebaihe"
+        android:id="@+id/placezhenzhudiaolan"
+        android:layout_width="75dp"
+        android:layout_height="26dp"
+        android:layout_alignTop="@+id/timezhenzhudiaolan"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-91dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginRight="294dp"
+        android:layout_marginBottom="159dp"
+        android:text="分布地区"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/placetextzhenzhudiaolan"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="117dp"
+        android:text="主产于江苏，全国各地均有种植。" />
+
+    <TextView
+        android:id="@+id/timezhenzhudiaolan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -152,45 +179,20 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="313dp"
         android:layout_marginRight="313dp"
-        android:layout_marginBottom="200dp"
-        android:text="分布地区"
-        android:textColor="#ff99cc00" />
-
-    <TextView
-        android:id="@+id/placetextbaihe"
-        android:layout_width="353dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="143dp"
-        android:text="广东、广西、海南" />
-
-    <TextView
-        android:id="@+id/timebaihe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="314dp"
-        android:layout_marginRight="314dp"
-        android:layout_marginBottom="107dp"
+        android:layout_marginBottom="75dp"
         android:text="花开时节"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/timetextbaihe"
+        android:id="@+id/timetextzhenzhudiaolan"
         android:layout_width="133dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="236dp"
-        android:layout_marginRight="236dp"
-        android:layout_marginBottom="66dp"
-        android:text="花期6-10(-12)月" />
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        android:layout_marginBottom="37dp"
+        android:text="花期12-1月" />
 
 </RelativeLayout>

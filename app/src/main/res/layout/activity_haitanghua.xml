@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".XianrenzhangActivity">
+    tools:context=".HaitanghuaActivity">
 
     <TextView
-        android:id="@+id/rdo_back_xianrenzhang"
+        android:id="@+id/rdo_back_haitanghua"
         android:layout_width="57dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -19,46 +19,46 @@
         android:text="返回" />
 
     <TextView
-        android:id="@+id/xianrenzhang"
-        android:layout_width="156dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/haitanghua"
+        android:layout_width="187dp"
+        android:layout_height="32dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="213dp"
-        android:layout_marginRight="213dp"
-        android:layout_marginBottom="571dp"
-        android:text="仙人掌 Cactus"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginBottom="566dp"
+        android:text="海棠花 Begonina"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/classxianrenzhang"
+        android:id="@+id/classhaitanghua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="533dp"
-        android:text="仙人掌科"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
+        android:layout_marginBottom="532dp"
+        android:text="分为多科"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/categoryxianrenzhang"
+        android:id="@+id/categorybaihe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="227dp"
-        android:layout_marginRight="227dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
         android:layout_marginBottom="533dp"
-        android:text="仙人掌属"
+        android:text="分为多属"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introxianrenzhang"
+        android:id="@+id/introhaitanghua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -66,57 +66,82 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="312dp"
         android:layout_marginRight="312dp"
-        android:layout_marginBottom="404dp"
+        android:layout_marginBottom="412dp"
         android:text="简要介绍"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introtextxianrenzhang"
-        android:layout_width="346dp"
-        android:layout_height="47dp"
+        android:id="@+id/introtexthaitanghua"
+        android:layout_width="347dp"
+        android:layout_height="82dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginBottom="340dp"
-        android:text="常生长于沙漠等干燥环境中，被称为“沙漠英雄花”，为多肉植物的一类。" />
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="321dp"
+        android:text="海棠素有“国艳”之誉，是中国的特有植物，多生长在海拔50米至2000米的平原和山地，可以人工引种栽培。主要分为西府、贴梗、垂丝、木瓜并称海棠四品。" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang1"
+        android:id="@+id/imagehaitanghua1"
         android:layout_width="83dp"
         android:layout_height="104dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="289dp"
-        android:layout_marginRight="289dp"
-        android:layout_marginBottom="427dp"
-        app:srcCompat="@drawable/xianrenzhang1" />
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="423dp"
+        app:srcCompat="@drawable/haitanghua1" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang2"
-        android:layout_width="wrap_content"
+        android:id="@+id/imagenhaitanghua2"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="177dp"
-        android:layout_marginRight="177dp"
-        android:layout_marginBottom="449dp"
-        app:srcCompat="@drawable/xianrenzhang2" />
+        android:layout_marginEnd="185dp"
+        android:layout_marginRight="185dp"
+        android:layout_marginBottom="454dp"
+        app:srcCompat="@drawable/haitanghua2" />
 
     <ImageView
-        android:id="@+id/imagexianrenzhang3"
-        android:layout_width="88dp"
-        android:layout_height="66dp"
+        android:id="@+id/imagehaitanghua3"
+        android:layout_width="74dp"
+        android:layout_height="51dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="56dp"
-        android:layout_marginRight="56dp"
-        android:layout_marginBottom="446dp"
-        app:srcCompat="@drawable/xianrenzhang3" />
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="453dp"
+        app:srcCompat="@drawable/haitanghua3" />
+
+    <TextView
+        android:id="@+id/citybaihe"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/placebaihe"
+        android:layout_alignRight="@+id/placebaihe"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-194dp"
+        android:layout_marginRight="-194dp"
+        android:layout_marginBottom="295dp"
+        android:text="以本植物为市花/市数的城市"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/citytextbaihe"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="221dp"
+        android:layout_marginRight="221dp"
+        android:layout_marginBottom="262dp"
+        android:text="湖州，南平，铁岭" />
 
     <TextView
         android:id="@+id/meanbaihe"
@@ -125,10 +150,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="303dp"
-        android:text="价值功用"
+        android:layout_marginEnd="315dp"
+        android:layout_marginRight="315dp"
+        android:layout_marginBottom="233dp"
+        android:text="花语寓意"
         android:textColor="#ff99cc00" />
 
     <TextView
@@ -138,10 +163,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="241dp"
-        android:text="仙人掌可以食用，可以药用，可以放在阳台上观赏。通常栽作围篱，茎供药用，浆果酸甜可食。" />
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="148dp"
+        android:text="百合具有百年好合美好家庭、伟大的爱含之意，有深深祝福的意义。收到这种花的祝福的人具有清纯的性格，集众人宠爱于一身，不过光凭这一点并不能平静,必须具备自制力，抵抗外界的诱惑，才能保持不被污染的纯真。" />
 
     <TextView
         android:id="@+id/placebaihe"
@@ -150,9 +175,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginRight="315dp"
+        android:layout_marginBottom="118dp"
         android:text="分布地区"
         android:textColor="#ff99cc00" />
 
@@ -163,10 +188,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="143dp"
-        android:text="广东、广西、海南" />
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="71dp"
+        android:text="主产于湖南、四川、河南、江苏、浙江，全国各地均有种植，少部分为野生资源。" />
 
     <TextView
         android:id="@+id/timebaihe"
@@ -175,9 +200,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="314dp"
-        android:layout_marginRight="314dp"
-        android:layout_marginBottom="107dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginRight="316dp"
+        android:layout_marginBottom="45dp"
         android:text="花开时节"
         android:textColor="#ff99cc00" />
 
@@ -188,9 +213,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="236dp"
-        android:layout_marginRight="236dp"
-        android:layout_marginBottom="66dp"
-        android:text="花期6-10(-12)月" />
+        android:layout_marginEnd="240dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginBottom="16dp"
+        android:text="花期5-6月" />
 
 </RelativeLayout>

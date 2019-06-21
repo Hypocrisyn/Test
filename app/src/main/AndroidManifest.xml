@@ -15,7 +15,10 @@
         android:roundIcon="@mipmap/plant"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".XiangrikuiActivity"></activity>
+        <activity android:name=".HaitanghuaActivity"></activity>
+        <activity android:name=".ZhenzhudiaolanActivity" />
+        <activity android:name=".DuorouActivity" />
+        <activity android:name=".XiangrikuiActivity" />
         <activity android:name=".XianrenzhangActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".PlantActivity" />

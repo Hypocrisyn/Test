@@ -46,14 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent listxiangrikui = new Intent(this, XianrenzhangActivity.class);
             startActivity(listxiangrikui);
         } else if (btn.getId() == R.id.rdo_main_duorou) {
-            Intent listbaihe = new Intent(this, BaiheActivity.class);
-            startActivity(listbaihe);
+            Intent listduorou = new Intent(this, DuorouActivity.class);
+            startActivity(listduorou);
         } else if (btn.getId() == R.id.rdo_main_zhenzhudiaolan) {
-            Intent listbaihe = new Intent(this, BaiheActivity.class);
-            startActivity(listbaihe);
+            Intent listzhenzhudiaolan = new Intent(this, ZhenzhudiaolanActivity.class);
+            startActivity(listzhenzhudiaolan);
         } else if (btn.getId() == R.id.rdo_main_haitanghua) {
-            Intent listbaihe = new Intent(this, BaiheActivity.class);
-            startActivity(listbaihe);
+            Intent listhaitanghua = new Intent(this, HaitanghuaActivity.class);
+            startActivity(listhaitanghua);
         } else if (btn.getId() == R.id.rdo_main_luhui) {
             Intent listbaihe = new Intent(this, BaiheActivity.class);
             startActivity(listbaihe);
