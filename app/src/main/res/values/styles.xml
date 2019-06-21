@@ -17,11 +17,12 @@
         <item name="android:drawablePadding">1dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:padding">7dp</item>
+        <item name="android:background">@drawable/shape2</item>
         <!--
         <item name="android:layout_marginBottom">4dp</item>
         -->
 
-        <item name="android:background">@drawable/shape2</item>
+
 
     </style>
 

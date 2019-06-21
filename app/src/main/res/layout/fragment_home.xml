@@ -92,13 +92,13 @@
 
     <TextView
         android:id="@+id/fans"
-        android:layout_width="49dp"
+        android:layout_width="48dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="71dp"
-        android:layout_marginRight="71dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
         android:layout_marginBottom="464dp"
         android:text="粉丝"
         android:textSize="16dp" />
@@ -122,8 +122,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
         android:layout_marginBottom="487dp"
         android:text="127" />
 

@@ -1,5 +1,21 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="rdo_main_baihe">百合</string>
+    <string name="rdo_main_xianrenzhang">仙人掌</string>
+    <string name="rdo_main_xiangrikui">向日葵</string>
+    <string name="rdo_main_duorou">多肉</string>
+    <string name="rdo_main_zhenzhudiaolan">珍珠吊兰</string>
+    <string name="rdo_main_haitanghua">海棠花</string>
+    <string name="rdo_main_luhui">芦荟</string>
+    <string name="rdo_main_yujingxiang">郁金香</string>
+    <string name="rdo_back_baihe">返回</string>
+    <string name="rdo_back_xianrenzhang">返回</string>
+    <string name="rdo_back_xiangrikui">返回</string>
+    <string name="rdo_back_duorou">返回</string>
+    <string name="rdo_back_zhenzhudiaolan">返回</string>
+    <string name="rdo_back_haitanghua">返回</string>
+    <string name="rdo_back_luhui">返回</string>
+    <string name="rdo_back_yujingxiang">返回</string>
     <string name="rdo_main_label">首页</string>
     <string name="rdo_tbbs_label">社区</string>
     <string name="rdo_home_label">我的</string>
