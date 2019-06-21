@@ -4,48 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ZhenzhudiaolanActivity">
+    tools:context=".LuhuiActivity">
 
     <TextView
-        android:id="@+id/rdo_back_zhenzhudiaolan"
+        android:id="@+id/rdo_back_luhui"
         android:layout_width="57dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="573dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="579dp"
         android:text="返回" />
 
     <TextView
-        android:id="@+id/zhenzhudiaolan"
-        android:layout_width="264dp"
-        android:layout_height="40dp"
+        android:id="@+id/luhui"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="105dp"
-        android:layout_marginRight="105dp"
-        android:layout_marginBottom="558dp"
-        android:text="珍珠吊兰 Pearl bracketplant"
+        android:layout_marginEnd="264dp"
+        android:layout_marginRight="264dp"
+        android:layout_marginBottom="563dp"
+        android:text="芦荟 Aloe"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/classzhenzhudiaolan"
+        android:id="@+id/classluhui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="333dp"
-        android:layout_marginRight="333dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
         android:layout_marginBottom="532dp"
-        android:text="菊科"
+        android:text="百合科"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/categoryzhenzhudiaolan"
+        android:id="@+id/categoryluhui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -54,11 +54,11 @@
         android:layout_marginEnd="250dp"
         android:layout_marginRight="250dp"
         android:layout_marginBottom="533dp"
-        android:text="千里光属"
+        android:text="芦荟属"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introzhenzhudiaolan"
+        android:id="@+id/introluhui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -66,24 +66,24 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="312dp"
         android:layout_marginRight="312dp"
-        android:layout_marginBottom="399dp"
+        android:layout_marginBottom="392dp"
         android:text="简要介绍"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/introtextzhenzhudiaolan"
+        android:id="@+id/introtextluhui"
         android:layout_width="347dp"
-        android:layout_height="wrap_content"
+        android:layout_height="82dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="21dp"
         android:layout_marginRight="21dp"
-        android:layout_marginBottom="311dp"
-        android:text="珍珠吊兰为多年生常绿匍匐生肉质草本植物。一粒粒圆润的、肥厚的圆心形叶片，因叶互生，生长较疏，圆心形，深绿色，肥厚多汁，似珠子，故有“佛串珠”、“佛珠”、“绿葡萄”、“绿之铃”之美称。" />
+        android:layout_marginBottom="297dp"
+        android:text="芦荟为百合科多年生常绿草本植物，叶簇生、大而肥厚，呈座状或生于茎顶，叶常披针形或叶短宽，边缘有尖齿状刺。花序为伞形、总状、穗状、圆锥形等，色呈红、黄或具赤色斑点，花瓣六片、雌蕊六枚。花被基部多连合成筒状。" />
 
     <ImageView
-        android:id="@+id/imagezhenzhudiaolan1"
+        android:id="@+id/imageluhui1"
         android:layout_width="83dp"
         android:layout_height="104dp"
         android:layout_alignParentEnd="true"
@@ -92,86 +92,34 @@
         android:layout_marginEnd="291dp"
         android:layout_marginRight="291dp"
         android:layout_marginBottom="423dp"
-        app:srcCompat="@drawable/zhenzhudiaolan1" />
+        app:srcCompat="@drawable/luhui1" />
 
     <ImageView
-        android:id="@+id/imagezhenzhudiaolan2"
-        android:layout_width="85dp"
+        android:id="@+id/imageluhui2"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="181dp"
-        android:layout_marginRight="181dp"
-        android:layout_marginBottom="454dp"
-        app:srcCompat="@drawable/zhenzhudiaolan2" />
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginBottom="446dp"
+        app:srcCompat="@drawable/luhui2" />
 
     <ImageView
-        android:id="@+id/imagezhenzhudiaolan3"
-        android:layout_width="74dp"
-        android:layout_height="51dp"
+        android:id="@+id/imageluhui3"
+        android:layout_width="76dp"
+        android:layout_height="55dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="72dp"
-        android:layout_marginRight="72dp"
-        android:layout_marginBottom="453dp"
-        app:srcCompat="@drawable/zhenzhudiaolan3" />
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="444dp"
+        app:srcCompat="@drawable/luhui3" />
 
     <TextView
-        android:id="@+id/meanbaihe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="312dp"
-        android:layout_marginRight="312dp"
-        android:layout_marginBottom="273dp"
-        android:text="价值功用"
-        android:textColor="#ff99cc00" />
-
-    <TextView
-        android:id="@+id/meantextbaihe"
-        android:layout_width="359dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="211dp"
-        android:text="具有观赏价值和药用价值，可用于净化空气，对呼吸道、肺和脾的安康有利。" />
-
-    <TextView
-        android:id="@+id/placezhenzhudiaolan"
-        android:layout_width="75dp"
-        android:layout_height="26dp"
-        android:layout_alignTop="@+id/timezhenzhudiaolan"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="-91dp"
-        android:layout_marginEnd="294dp"
-        android:layout_marginRight="294dp"
-        android:layout_marginBottom="159dp"
-        android:text="分布地区"
-        android:textColor="#ff99cc00" />
-
-    <TextView
-        android:id="@+id/placetextzhenzhudiaolan"
-        android:layout_width="353dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="19dp"
-        android:layout_marginRight="19dp"
-        android:layout_marginBottom="117dp"
-        android:text="原产于非洲，现主产于江苏。" />
-
-    <TextView
-        android:id="@+id/timezhenzhudiaolan"
+        android:id="@+id/meanluhui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -179,20 +127,70 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="313dp"
         android:layout_marginRight="313dp"
-        android:layout_marginBottom="75dp"
+        android:layout_marginBottom="259dp"
+        android:text="价值功用"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/meantextluhuhi"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="202dp"
+        android:text="可用于肝火头痛，目赤肿痛，烦热惊风，热结便秘，虫积腹痛，小儿疳积等。" />
+
+    <TextView
+        android:id="@+id/placeluhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="315dp"
+        android:layout_marginRight="315dp"
+        android:layout_marginBottom="163dp"
+        android:text="分布地区"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/placetextluhui"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="127dp"
+        android:text="原产于美洲西印度群岛的库拉索群岛和巴巴多斯岛。" />
+
+    <TextView
+        android:id="@+id/timeluhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="316dp"
+        android:layout_marginRight="316dp"
+        android:layout_marginBottom="91dp"
         android:text="花开时节"
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/timetextzhenzhudiaolan"
+        android:id="@+id/timetextluhui"
         android:layout_width="133dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="237dp"
-        android:layout_marginRight="237dp"
-        android:layout_marginBottom="37dp"
-        android:text="花期12-1月" />
+        android:layout_marginEnd="238dp"
+        android:layout_marginRight="238dp"
+        android:layout_marginBottom="54dp"
+        android:text="花期2-3月" />
 
 </RelativeLayout>
