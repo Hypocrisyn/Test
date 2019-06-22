@@ -1,9 +1,273 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SanshenghuaxiangActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/sanshenghuaxiang"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="264dp"
+        android:layout_marginRight="264dp"
+        android:layout_marginBottom="563dp"
+        android:text="三圣花乡"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/classsanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="184dp"
+        android:layout_marginRight="184dp"
+        android:layout_marginBottom="569dp"
+        android:text="AAAA"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/moneysanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginBottom="567dp"
+        android:text="免费"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/timesanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="568dp"
+        android:text="全天开放"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/introsanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginRight="312dp"
+        android:layout_marginBottom="438dp"
+        android:text="简要介绍"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/introtextsanshenghuaxiang"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="342dp"
+        android:text="“三圣花乡”坐落于素有“中国花木之乡”之称的四川成都市锦江区，涉及红砂村、幸福村、驸马村、万福村、江家堰村五个村，是一个以观光休闲农业和乡村旅游为主题，集休闲度假、观光旅游、餐饮娱乐、商务会议等于一体的城市近郊生态休闲度假胜地。" />
+
+    <ImageView
+        android:id="@+id/imagesanshenghuaxiang1"
+        android:layout_width="83dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginRight="285dp"
+        android:layout_marginBottom="453dp"
+        app:srcCompat="@drawable/sanshenghuaxiang1" />
+
+    <ImageView
+        android:id="@+id/imagesanshenghuaxiang2"
+        android:layout_width="79dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="174dp"
+        android:layout_marginRight="174dp"
+        android:layout_marginBottom="480dp"
+        app:srcCompat="@drawable/sanshenghuaxiang2" />
+
+    <ImageView
+        android:id="@+id/imagesanshenghuaxiang3"
+        android:layout_width="74dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="478dp"
+        app:srcCompat="@drawable/sanshenghuaxiang3" />
+
+    <TextView
+        android:id="@+id/wheresanshenghuaxiang"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="318dp"
+        android:text="地理位置"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/wheretextsanshenghuaxiang"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="290dp"
+        android:text="成都市锦江区三圣街道办事处" />
+
+    <TextView
+        android:id="@+id/areasanshenghuaxiang"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="290dp"
+        android:layout_marginRight="290dp"
+        android:layout_marginBottom="262dp"
+        android:text="占地面积"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/areatextsanshenghuaxiang"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="238dp"
+        android:text="15000余亩" />
+
+    <TextView
+        android:id="@+id/weathersanshenghuxaing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginRight="312dp"
+        android:layout_marginBottom="213dp"
+        android:text="气候类型"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/weathertextsanshenghuxaing"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="182dp"
+        android:text="亚热带季风气候" />
+
+    <TextView
+        android:id="@+id/placesanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="309dp"
+        android:layout_marginRight="309dp"
+        android:layout_marginBottom="149dp"
+        android:text="著名景点"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/placetextsanshenghuaxiang"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="104dp"
+        android:text="花乡农居、幸福梅林、东篱菊园、荷塘月色、江家菜地等。" />
+
+    <TextView
+        android:id="@+id/hoursanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:layout_marginBottom="73dp"
+        android:text="建议游玩时长"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/hourtextsanshenghuaxiang"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
+        android:layout_marginBottom="47dp"
+        android:text="4-6小时" />
+
+    <TextView
+        android:id="@+id/seasonsanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:layout_marginBottom="25dp"
+        android:text="适宜游玩季节"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/seasontextsanshenghuaxiang"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="2dp"
+        android:text="春秋两季" />
+
+</RelativeLayout>

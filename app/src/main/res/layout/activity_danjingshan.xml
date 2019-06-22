@@ -1,9 +1,273 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DanjingshanActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/zhiwuyuan"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="571dp"
+        android:text="成都市植物园"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/classzhiwuyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginRight="190dp"
+        android:layout_marginBottom="569dp"
+        android:text="AAA"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/moneyzhiwuyuan"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="567dp"
+        android:text="10-30¥"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/timezhiwuyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="568dp"
+        android:text=" 9:00-18:00"
+        android:textColor="#ff99cc00" />
+
+
+    <TextView
+        android:id="@+id/introdanjingshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginRight="312dp"
+        android:layout_marginBottom="438dp"
+        android:text="简要介绍"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/introtextdanjingshan"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="328dp"
+        android:text="丹景山境内山川形势奇异，文物、古迹众多。素有“丹岳岱宗”，“古唐胜迹”，“丹景第一”之称。丹景山为中国天彭牡丹的发源地，宋代尤其南宋时期，花特盛，与洛阳、菏泽齐名。丹景山是龙门山前沿景区，以牡丹文化、宗教文化和古彭蜀文化著称于世。自唐代开始大规模种植牡丹，宋代特别是南宋时期花特盛，与洛阳齐名。" />
+
+    <ImageView
+        android:id="@+id/imagedanjingshan1"
+        android:layout_width="83dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginRight="285dp"
+        android:layout_marginBottom="453dp"
+        app:srcCompat="@drawable/danjingshan1" />
+
+    <ImageView
+        android:id="@+id/imagedanjingshan2"
+        android:layout_width="90dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="478dp"
+        app:srcCompat="@drawable/danjingshan2" />
+
+    <ImageView
+        android:id="@+id/imagedanjingshan3"
+        android:layout_width="96dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="473dp"
+        app:srcCompat="@drawable/danjingshan3" />
+
+    <TextView
+        android:id="@+id/wheredanjingshan"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="299dp"
+        android:text="地理位置"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/wheretextdanjingshan"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="147dp"
+        android:layout_marginBottom="273dp"
+        android:text="四川省彭州市丹景山镇(古九陇)" />
+
+    <TextView
+        android:id="@+id/areadanjingshan"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="293dp"
+        android:layout_marginRight="293dp"
+        android:layout_marginBottom="246dp"
+        android:text="海拔"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/areatextdanjingshan"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="218dp"
+        android:text="1147米" />
+
+    <TextView
+        android:id="@+id/weatherdanjingshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="310dp"
+        android:layout_marginRight="310dp"
+        android:layout_marginBottom="192dp"
+        android:text="气候类型"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/weathertextdanjingshan"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="163dp"
+        android:text="亚热带季风气候" />
+
+    <TextView
+        android:id="@+id/placedanjingshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="310dp"
+        android:layout_marginRight="310dp"
+        android:layout_marginBottom="136dp"
+        android:text="著名景点"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/placetextdanjingshan"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="109dp"
+        android:text="望乡台，天彭门" />
+
+    <TextView
+        android:id="@+id/hourdanjingshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginRight="285dp"
+        android:layout_marginBottom="82dp"
+        android:text="建议游玩时长"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/hourtextdanjingshan"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginRight="233dp"
+        android:layout_marginBottom="54dp"
+        android:text="4-6小时" />
+
+    <TextView
+        android:id="@+id/seasonsanjingshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginRight="285dp"
+        android:layout_marginBottom="29dp"
+        android:text="适宜游玩季节"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/seasontextdanjingshan"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="4dp"
+        android:text="春秋两季" />
+
+</RelativeLayout>

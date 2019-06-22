@@ -1,9 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ZhiwuyuanActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/zhiwuyuan"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="571dp"
+        android:text="成都市植物园"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/classzhiwuyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginRight="190dp"
+        android:layout_marginBottom="569dp"
+        android:text="AAA"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/moneyzhiwuyuan"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="568dp"
+        android:text="10¥"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/timezhiwuyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="568dp"
+        android:text=" 07:00-19:00"
+        android:textColor="#ff99cc00" />
+
+
+    <TextView
+        android:id="@+id/introsanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginRight="312dp"
+        android:layout_marginBottom="438dp"
+        android:text="简要介绍"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/introtextzhiwuyuan"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="339dp"
+        android:text="成都市植物园内现保存植物2千余种，其中有国家一、二、三级保护植物银杉、珙桐、金钱等100多种，功能涵盖科研科普、引种驯化和旅游服务。建园二十余年来，共完成科研项目五十余项，其中对芙蓉和荚蒾属植物的研究达到国际和国内领先水平。" />
+
+    <ImageView
+        android:id="@+id/imagezhiwuyuan1"
+        android:layout_width="83dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginRight="285dp"
+        android:layout_marginBottom="453dp"
+        app:srcCompat="@drawable/zhiwuyuan1" />
+
+    <ImageView
+        android:id="@+id/imagezhiwuyuan2"
+        android:layout_width="90dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="478dp"
+        app:srcCompat="@drawable/zhiwuyuan2" />
+
+    <ImageView
+        android:id="@+id/imagezhiwuyuan3"
+        android:layout_width="96dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="473dp"
+        app:srcCompat="@drawable/zhiwuyuan3" />
+
+    <TextView
+        android:id="@+id/wherezhiwuyuan"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="302dp"
+        android:text="地理位置"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/wheretextzhiwuyuan"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginBottom="273dp"
+        android:text="四川省成都市金牛区天回镇" />
+
+    <TextView
+        android:id="@+id/areazhiwuyuan"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="290dp"
+        android:layout_marginRight="290dp"
+        android:layout_marginBottom="238dp"
+        android:text="占地面积"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/areatextzhiwuyuan"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="207dp"
+        android:text="4200余亩" />
+
+    <TextView
+        android:id="@+id/weatherzhiwuyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="310dp"
+        android:layout_marginRight="310dp"
+        android:layout_marginBottom="175dp"
+        android:text="气候类型"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/weathertextzhiwuyuan"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="141dp"
+        android:text="亚热带季风气候" />
+
+    <TextView
+        android:id="@+id/hourzhiwuyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="283dp"
+        android:layout_marginRight="283dp"
+        android:layout_marginBottom="100dp"
+        android:text="建议游玩时长"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/hourtextzhiwuyuan"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="68dp"
+        android:text="4-6小时" />
+
+    <TextView
+        android:id="@+id/seasonsanshenghuaxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:layout_marginBottom="43dp"
+        android:text="适宜游玩季节"
+        android:textColor="#ff99cc00" />
+
+    <TextView
+        android:id="@+id/seasontextzhiwuyuan"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="13dp"
+        android:text="全年" />
+
+</RelativeLayout>

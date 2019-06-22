@@ -21,7 +21,7 @@ public class ZhenzhudiaolanActivity extends AppCompatActivity implements View.On
 
     public void onClick(View btn){
         if (btn.getId() == R.id.rdo_back_zhenzhudiaolan) {
-            Intent list = new Intent(this, MainActivity.class);
+            Intent list = new Intent(this, MainFragment.class);
             startActivity(list);
         }
     }

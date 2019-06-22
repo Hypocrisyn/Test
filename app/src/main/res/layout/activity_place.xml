@@ -13,9 +13,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="215dp"
-        android:layout_marginRight="215dp"
-        android:layout_marginBottom="587dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginRight="217dp"
+        android:layout_marginBottom="600dp"
         android:text="成都植物园"
         android:textSize="20dp" />
 
@@ -46,11 +46,11 @@
         android:textSize="20dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imagezhiwuyuan"
+        android:layout_width="383dp"
+        android:layout_height="191dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="203dp"
+        android:layout_marginBottom="401dp"
         app:srcCompat="@drawable/zhiwuyuan" />
 
 </RelativeLayout>

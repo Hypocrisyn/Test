@@ -21,7 +21,7 @@ public class XiangrikuiActivity extends AppCompatActivity implements View.OnClic
 
     public void onClick(View btn){
         if (btn.getId() == R.id.rdo_back_xiangrikui) {
-            Intent list = new Intent(this, MainActivity.class);
+            Intent list = new Intent(this, MainFragment.class);
             startActivity(list);
         }
     }

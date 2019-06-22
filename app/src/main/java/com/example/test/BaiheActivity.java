@@ -21,7 +21,7 @@ public class BaiheActivity extends AppCompatActivity implements View.OnClickList
 
     public void onClick(View btn){
         if (btn.getId() == R.id.rdo_back_baihe) {
-            Intent list = new Intent(this, MainActivity.class);
+            Intent list = new Intent(this, MainFragment.class);
             startActivity(list);
         }
     }

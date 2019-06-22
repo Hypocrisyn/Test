@@ -21,7 +21,7 @@ public class XianrenzhangActivity extends AppCompatActivity implements View.OnCl
 
     public void onClick(View btn){
         if (btn.getId() == R.id.rdo_back_xianrenzhang) {
-            Intent list = new Intent(this, MainActivity.class);
+            Intent list = new Intent(this, MainFragment.class);
             startActivity(list);
         }
     }

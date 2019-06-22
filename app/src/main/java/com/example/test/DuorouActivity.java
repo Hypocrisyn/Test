@@ -21,7 +21,7 @@ public class DuorouActivity extends AppCompatActivity implements View.OnClickLis
 
     public void onClick(View btn){
         if (btn.getId() == R.id.rdo_back_duorou) {
-            Intent list = new Intent(this, MainActivity.class);
+            Intent list = new Intent(this, MainFragment.class);
             startActivity(list);
         }
     }
