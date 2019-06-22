@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".MainFragment">
+    tools:context=".">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -225,7 +225,7 @@
         android:src="@drawable/yujinxiang" />
 
     <TextView
-        android:id="@+id/planttext"
+        android:id="@+id/rdo_main_placetext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TbbsFragment">
+    tools:context=".TbbsActivity">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -36,7 +36,7 @@
 
     <TextView
         android:id="@+id/rdo_tbbs_wheretext"
-        android:layout_width="wrap_content"v
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"

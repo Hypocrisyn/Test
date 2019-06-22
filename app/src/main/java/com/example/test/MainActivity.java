@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         luhui.setOnClickListener(this);
         yujinxaing = (TextView)findViewById(R.id.rdo_main_yujixiang);
         yujinxaing.setOnClickListener(this);
-        plant = (TextView)findViewById(R.id.placetext);
+        plant = (TextView)findViewById(R.id.rdo_main_placetext);
         plant.setOnClickListener(this);
 
     }
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (btn.getId() == R.id.rdo_main_yujixiang) {
             Intent listyujinxiang = new Intent(this, YujinxiangActivity.class);
             startActivity(listyujinxiang);
-        } else if (btn.getId() == R.id.planttext) {
+        } else if (btn.getId() == R.id.rdo_main_placetext) {
             Intent listmore = new Intent(this, MainFragment.class);
             startActivity(listmore);
         }

@@ -8,6 +8,11 @@
     <string name="rdo_main_haitanghua">海棠花</string>
     <string name="rdo_main_luhui">芦荟</string>
     <string name="rdo_main_yujingxiang">郁金香</string>
+    <string name="rdo_main_placetext">更多</string>
+    <string name="rdo_tbbs_wheretext">前往</string>
+    <string name="rdo_tbbs_zhiwuyuan">植物园</string>
+    <string name="rdo_tbbs_sanshenghuaxiang">三圣花乡</string>
+    <string name="rdo_tbbs_danjingshan">丹景山</string>
     <string name="rdo_back_baihe">返回</string>
     <string name="rdo_back_xianrenzhang">返回</string>
     <string name="rdo_back_xiangrikui">返回</string>

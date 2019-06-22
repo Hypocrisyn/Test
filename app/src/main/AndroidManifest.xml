@@ -15,7 +15,12 @@
         android:roundIcon="@mipmap/plant"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".YujinxiangActivity"></activity>
+        <activity android:name=".DanjingshanActivity"></activity>
+        <activity android:name=".SanshenghuaxiangActivity" />
+        <activity android:name=".ZhiwuyuanActivity" />
+        <activity android:name=".PlaceActivity" />
+        <activity android:name=".TbbsActivity" />
+        <activity android:name=".YujinxiangActivity" />
         <activity android:name=".LuhuiActivity" />
         <activity android:name=".HaitanghuaActivity" />
         <activity android:name=".ZhenzhudiaolanActivity" />
@@ -23,7 +28,6 @@
         <activity android:name=".XiangrikuiActivity" />
         <activity android:name=".XianrenzhangActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".PlantActivity" />
         <activity android:name=".BaiheActivity" />
         <activity android:name=".FrameActivity">
             <intent-filter>
