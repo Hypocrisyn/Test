@@ -23,14 +23,14 @@
 
     <TextView
         android:id="@+id/placetext"
-        android:layout_width="160dp"
-        android:layout_height="43dp"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="217dp"
-        android:layout_marginRight="217dp"
-        android:layout_marginBottom="365dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginRight="218dp"
+        android:layout_marginBottom="357dp"
         android:text="近期好去处"
         android:textSize="20dp" />
 
@@ -48,16 +48,16 @@
 
     <TextView
         android:id="@+id/weathertext"
-        android:layout_width="119dp"
+        android:layout_width="116dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="245dp"
-        android:layout_marginRight="245dp"
-        android:layout_marginBottom="483dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginRight="247dp"
+        android:layout_marginBottom="457dp"
         android:text="25℃"
-        android:textSize="48dp" />
+        android:textSize="36dp" />
 
     <TextView
         android:id="@+id/timetext"
@@ -66,22 +66,22 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="215dp"
-        android:layout_marginRight="215dp"
-        android:layout_marginBottom="450dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:layout_marginBottom="427dp"
         android:text="更新时间：18:00" />
 
     <TextView
         android:id="@+id/locationtext"
-        android:layout_width="62dp"
-        android:layout_height="wrap_content"
+        android:layout_width="127dp"
+        android:layout_height="30dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="321dp"
-        android:layout_marginRight="321dp"
-        android:layout_marginBottom="554dp"
-        android:text="成都" />
+        android:layout_marginEnd="244dp"
+        android:layout_marginRight="244dp"
+        android:layout_marginBottom="508dp"
+        android:text="成都市" />
 
     <TextView
         android:id="@+id/wettext"
@@ -90,9 +90,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="456dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="427dp"
         android:text="相对湿度 79%"
         android:textSize="20dp" />
 
@@ -103,9 +103,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="93dp"
-        android:layout_marginRight="93dp"
-        android:layout_marginBottom="509dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="491dp"
         android:text="静风 0级"
         android:textSize="20dp" />
 
