@@ -164,7 +164,7 @@
         android:src="@drawable/view" />
 
     <ImageView
-        android:id="@+id/agreeView"
+        android:id="@+id/likeView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -173,7 +173,7 @@
         android:layout_marginEnd="120dp"
         android:layout_marginRight="120dp"
         android:layout_marginBottom="366dp"
-        android:src="@drawable/agree" />
+        android:src="@drawable/like" />
 
     <ImageView
         android:id="@+id/photoView"
@@ -281,7 +281,7 @@
         android:layout_marginEnd="123dp"
         android:layout_marginRight="123dp"
         android:layout_marginBottom="334dp"
-        android:text="我的赞" />
+        android:text="我的喜欢" />
 
     <TextView
         android:id="@+id/infotext"

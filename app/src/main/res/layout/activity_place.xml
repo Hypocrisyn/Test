@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/placegreen"
     tools:context=".PlaceActivity">
 
     <TextView
@@ -13,9 +14,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="217dp"
-        android:layout_marginRight="217dp"
-        android:layout_marginBottom="600dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginRight="214dp"
+        android:layout_marginBottom="575dp"
         android:text="成都植物园"
         android:textSize="20dp" />
 
@@ -41,16 +42,44 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="216dp"
         android:layout_marginRight="216dp"
-        android:layout_marginBottom="377dp"
+        android:layout_marginBottom="180dp"
         android:text="丹景山"
         android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imagezhiwuyuan"
-        android:layout_width="383dp"
-        android:layout_height="191dp"
+        android:layout_width="340dp"
+        android:layout_height="151dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="401dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="409dp"
         app:srcCompat="@drawable/zhiwuyuan" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="274dp"
+        android:layout_height="177dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/danjingshan" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="294dp"
+        android:layout_height="165dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="206dp"
+        app:srcCompat="@drawable/sanshenghuaxiang" />
 
 </RelativeLayout>

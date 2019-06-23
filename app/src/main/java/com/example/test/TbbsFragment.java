@@ -5,13 +5,16 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class TbbsFragment extends Fragment {
+public class TbbsFragment extends Fragment implements Runnable{
+
+    private final String TAG = "";
 
     @Nullable
     private TextView where;
@@ -30,14 +33,19 @@ public class TbbsFragment extends Fragment {
         where.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (v.getId() == R.id.rdo_tbbs_wheretext) {
-                    Intent list = new Intent(getActivity(), PlaceActivity.class);
-                    startActivity(list);
-                }
+                Intent list = new Intent(getActivity(), PlaceActivity.class);
+                startActivity(list);
+
             }
         });
+
+
     }
 
+    @Override
+    public void run() {
+        Log.i(TAG, "run: ");
+    }
 
 
     //获取当前位置

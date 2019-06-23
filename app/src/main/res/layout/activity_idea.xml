@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".IdeaActivity">
+
+    <TextView
+        android:id="@+id/introidea"
+        android:layout_width="378dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="496dp"
+        android:text="很抱歉让您进入到这个界面，我们有什么做得不足的地方敬候您的指正，您的宝贵意见我们会予以听取并加以改正。"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/idea"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="419dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ideabtn"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="336dp"
+        android:background="#ff99cc00"
+        android:text="提交" />
+</RelativeLayout>

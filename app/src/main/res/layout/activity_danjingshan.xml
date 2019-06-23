@@ -7,7 +7,7 @@
     tools:context=".DanjingshanActivity">
 
     <TextView
-        android:id="@+id/zhiwuyuan"
+        android:id="@+id/danjingshan"
         android:layout_width="133dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -16,11 +16,11 @@
         android:layout_marginEnd="236dp"
         android:layout_marginRight="236dp"
         android:layout_marginBottom="571dp"
-        android:text="成都市植物园"
+        android:text="丹景山"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/classzhiwuyuan"
+        android:id="@+id/classdanjingshan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -33,7 +33,7 @@
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/moneyzhiwuyuan"
+        android:id="@+id/moneydanjingshan"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -46,7 +46,7 @@
         android:textColor="#ff99cc00" />
 
     <TextView
-        android:id="@+id/timezhiwuyuan"
+        android:id="@+id/timedanjingshan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

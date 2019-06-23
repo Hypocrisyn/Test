@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/placegreen"
+    tools:context=".UsActivity">
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="147dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="324dp"
+        android:text="本软件是一款以植物为主的社交软件，在这里可以查询相关植物基础信息，可以知晓近期的天气状况，可以跟投缘的人交流植物，可以分享你日常所见所闻所感,还可以发现身边观赏的去处。"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="177dp"
+        android:text="让植物走进你的生活
+                     让我们走近你的生活"
+        android:textSize="24dp"
+        android:typeface="monospace" />
+
+</RelativeLayout>
