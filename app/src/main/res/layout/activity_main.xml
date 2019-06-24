@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/maingreen"
     tools:context=".MainActivity" >
 
     <TextView
@@ -15,12 +15,41 @@
         android:text="hello_world" />
 
     <Button
+        android:id="@+id/cd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="获得经纬度"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="123dp"
+        android:text="获得温度" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="219dp"
+        android:layout_height="136dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="498dp"
+        android:layout_weight="1"
+        android:focusable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginRight="151dp"
+        android:layout_marginBottom="189dp"
         android:onClick="getJW"
-        />
+        android:text="获得经纬度" />
 
     <TextView
         android:id="@+id/city"
@@ -30,6 +59,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="69dp"
         android:text="aaaaaa"
+        android:textSize="24dp"
         android:textColor="#000000" />
 
 </RelativeLayout>

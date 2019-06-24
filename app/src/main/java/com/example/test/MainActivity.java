@@ -14,6 +14,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebChromeClient;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -24,6 +28,7 @@ public class MainActivity extends Activity {
     Double a, b;
     private TextView city;
     private TextView showJW = null;
+    private WebView webView;
     private LocationManager locationManager;
 
     private double latitude = 0;
@@ -51,10 +56,11 @@ public class MainActivity extends Activity {
             }
             city.setText(latLongString);
             Bundle bundle = new Bundle();
-            bundle.putString("city", String.valueOf(city));
+            bundle.putString("city", latLongString);
             Intent intent = new Intent(MainActivity.this,TbbsFragment.class);
             intent.putExtras(bundle);
             //startActivity(intent);
+
             //TbbsFragment fragment = new TbbsFragment();
             // 将数据 保存到 fragment 里面
             //fragment.setArguments(bundle);
@@ -95,6 +101,20 @@ public class MainActivity extends Activity {
             }
         }.start();
 
+        webView=(WebView)findViewById(R.id.webView1);	//获取WebView组件
+        webView.getSettings().setJavaScriptEnabled(true);	//设置JavaScript可用
+        webView.setWebChromeClient(new WebChromeClient());	//处理JavaScript对话框
+        webView.setWebViewClient(new WebViewClient());	//处理各种通知和请求事件，如果不使用该句代码，将使用内置浏览器访问网页
+        webView.loadUrl("http://m.weather.com.cn/m/pn12/weather.htm ");	//设置默认显示的天气预报信息
+        webView.setInitialScale(57*4);	//放网页内容放大4倍
+        Button cd=(Button)findViewById(R.id.cd);	//获取布局管理器中添加的“成都”按钮
+        cd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openUrl("101270101");
+            }
+        });
+
     }
 
     /**
@@ -125,5 +145,8 @@ public class MainActivity extends Activity {
         }.start();
     }
 
+    private void openUrl(String s) {
+        webView.loadUrl("https://tianqi.so.com/weather/101270101");
+    };
 }
 
